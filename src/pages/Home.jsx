@@ -83,7 +83,7 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap justify-center space-x-0 space-y-4 md:space-x-4 md:space-y-0 mt-6">
       <a
-        href="tel:+9779851095326"
+        href="tel:+9779823315903"
         className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -91,7 +91,7 @@ const Home = () => {
       <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779851095326"; // Owner's WhatsApp number
+    const phone = "9779823315903"; // Owner's WhatsApp number
     const message = "I have an issue on my laptop/cpmputer's"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -125,7 +125,7 @@ const Home = () => {
           </p>
           <div className="flex space-x-4 mt-6">
           <a
-        href="tel:+9779851095326"
+        href="tel:+9779823315903"
         className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -133,7 +133,7 @@ const Home = () => {
             <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779851095326"; // Owner's WhatsApp number
+    const phone = "9779823315903"; // Owner's WhatsApp number
     const message = "I have an issue on my laptop/cpmputer's"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -233,7 +233,7 @@ const Home = () => {
     </p>
     <div className="flex flex-wrap justify-center space-x-0 space-y-4 md:space-x-4 md:space-y-0 mt-6">
       <a
-        href="tel:+9779851095326"
+        href="tel:+9779823315903"
         className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -241,7 +241,7 @@ const Home = () => {
       <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779851095326"; // Owner's WhatsApp number
+    const phone = "9779823315903"; // Owner's WhatsApp number
     const message = "I have an issue"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

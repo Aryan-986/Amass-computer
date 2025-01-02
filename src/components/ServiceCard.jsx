@@ -14,7 +14,7 @@ const ServiceCard = ({ image, title, description, whatsappMessage }) => {
       <div className="mt-4 flex justify-between items-center">
 
       <a
-        href={`https://wa.me/9779851095326?text=Hello%20I%20need%20help%20with%20${whatsappMessage}`}
+        href={`https://wa.me/9779823315903?text=Hello%20I%20need%20help%20with%20${whatsappMessage}`}
         target="_blank"
         rel="noopener noreferrer"
       >
