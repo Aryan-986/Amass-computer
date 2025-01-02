@@ -50,7 +50,7 @@ const AboutPage = () => {
     </p>
     <div className="flex flex-wrap justify-center space-x-0 space-y-4 md:space-x-4 md:space-y-0 mt-6">
       <a
-        href="tel:+9779823315903"
+        href="tel:+9779843927276"
         className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -58,7 +58,7 @@ const AboutPage = () => {
       <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779823315903"; // Owner's WhatsApp number
+    const phone = "9779843927276"; // Owner's WhatsApp number
     const message = "I have an issue"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -208,8 +208,8 @@ const AboutPage = () => {
     📍 Bhakti Thapa Sadak (New Baneshwor), Kathmandu 44600
   </p>
   <p className="mb-2">
-    <a href="tel:+9779823315903" className="text-blue-600 hover:underline">
-      📞 (977) 9823315903
+    <a href="tel:+9779843927276" className="text-blue-600 hover:underline">
+      📞 (977) 9843927276
     </a>
   </p>
   <p>

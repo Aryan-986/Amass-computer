@@ -7,22 +7,11 @@ import "swiper/css";
 import "swiper/swiper-bundle.css";
 // Brand Images (import your brand logos)
 import appleLogo from "../assets/Apple.jpg";
-import microsoftLogo from "../assets/microsoft.png";
-import optomaLogo from "../assets/Acer.jpg";
-import logitechLogo from "../assets/Compaq.jpg";
-import rapooLogo from "../assets/DELL.jpg";
-import hyundai from "../assets/hyundai.avif";
-import nokia from "../assets/nokia.webp";
-import reach from "../assets/reach.webp";
-import razer from "../assets/razer.webp";
-import lava from "../assets/lava.png";
-import msi from "../assets/msi_1625561930.png";
-import lenovo from "../assets/lenovo-logo.jpg";
-import honor from "../assets/honor_logo.avif";
-import sony from "../assets/Sony.jpg";
-import samsung from "../assets/Samsung.jpg";
-import toshiba from "../assets/Toshiba.jpg";
-import jio from "../assets/7212017113800AM_jio.webp";
+import lenovo from "../assets/lenovo-logo.jpg"
+import Dell from "../assets/DELL.jpg"
+import acer from "../assets/Acer.jpg"
+import hp from "../assets/hp.png"
+import assus from "../assets/asus.jpg"
 
 //service image
 import BasiclvlImg from "../assets/basic repair.jpg";
@@ -60,7 +49,7 @@ const ServicePage = () => {
     </p>
     <div className="flex flex-wrap justify-center space-x-0 space-y-4 md:space-x-4 md:space-y-0 mt-6">
       <a
-        href="tel:+9779823315903"
+        href="tel:+9779843927276"
         className="bg-white text-blue-700 px-6 py-4 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -68,7 +57,7 @@ const ServicePage = () => {
       <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779823315903"; // Owner's WhatsApp number
+    const phone = "9779843927276"; // Owner's WhatsApp number
     const message = "I have an issue"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -107,52 +96,19 @@ const ServicePage = () => {
             <img src={appleLogo} alt="Apple" className="mx-auto h-24" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={microsoftLogo} alt="Microsoft" className="mx-auto h-24" />
+            <img src={Dell} alt="Microsoft" className="mx-auto h-24" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={optomaLogo} alt="Optoma" className="mx-auto h-24" />
+            <img src={acer} alt="Optoma" className="mx-auto h-24" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={logitechLogo} alt="Logitech" className="mx-auto h-24" />
+            <img src={hp} alt="Logitech" className="mx-auto h-24" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rapooLogo} alt="Rapoo" className="mx-auto h-24" />
+            <img src={assus} alt="Rapoo" className="mx-auto h-24" />
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={nokia} alt="Nokia" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={reach} alt="Reach" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={razer} alt="Razer" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={lava} alt="Lava" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={msi} alt="MSI" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
+         <SwiperSlide>
             <img src={lenovo} alt="Lenovo" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={honor} alt="Honor" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={sony} alt="Sony" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={toshiba} alt="Toshiba" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={jio} alt="Jio" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={samsung} alt="Samsung" className="mx-auto h-24" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={hyundai} alt="Hyundai" className="mx-auto h-24" />
           </SwiperSlide>
           {/* Add more SwiperSlide components for additional brand logos */}
         </Swiper>

@@ -25,7 +25,7 @@ const Footer = () => {
           <Link to = "/">
           <p className="mb-4 text-yellow-500">contact@computershopnepal.com</p>
           </Link>
-          <p className="mb-4">+977-1- 4583689/ 9823315903</p>
+          <p className="mb-4">+977-1- 4583689/ 9843927276</p>
           <p>New Baneshwor, Kathmandu, Nepal</p>
         </div>
         <div>

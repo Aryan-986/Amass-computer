@@ -4,7 +4,7 @@ const WhatsAppIssueBox = () => {
     const [issue, setIssue] = useState("");
     const handleSendToWhatsApp = () => {
         const message = encodeURIComponent(`Hello, I have an Issue:${issue}`);
-        const whatsappURL = `https://wa.me/9779823315903?text=${message}`
+        const whatsappURL = `https://wa.me/9779843927276?text=${message}`
 
         //open Whatsapp URL
         window.open(whatsappURL, "_blank");

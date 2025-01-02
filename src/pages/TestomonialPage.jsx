@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/swiper-bundle.css";
 import comprepair from "../assets/computerrepairing.jpg";
 import owner from "../assets/amassowner.jpg"
-import Mechanic from "../assets/mechanic.png"
+import Mechanic from "../assets/buddhi.jpg"
 
 
 const TestomonialPage = () => {
@@ -118,7 +118,7 @@ const TestomonialPage = () => {
                 />
               </div>
               <p className="text-lg text-gray-700 mb-4 font-semibold">
-              "I’ve been to a lot of tech shops, but the level of service at Amass Computer Shop Nepal
+              "I’ve been to a lot of tech shops, but the level of service at Amass computer Nepal
                is next-level. They helped me upgrade my PC for gaming, and the performance boost 
                has been incredible. The staff went above and beyond to ensure everything was
                 running smoothly, and they even showed me how to optimize my system. If you’re 
@@ -142,7 +142,7 @@ const TestomonialPage = () => {
                 />
               </div>
               <p className="text-lg text-gray-700 mb-4 font-semibold">
-              "I recommend Amass Computer Shop Nepal enough! My laptop had a serious
+              "I recommend Amass computer Nepal enough! My laptop had a serious
                issue, and I thought it was beyond repair. But the technicians at Amass were 
                able to fix it in time. They explained exactly what the problem was and made 
                sure everything was running perfectly before I left. I was so impressed with 
@@ -167,7 +167,7 @@ const TestomonialPage = () => {
                 />
               </div>
               <p className="text-lg text-gray-700 mb-4 font-semibold">
-              "Amass Computer Shop Nepal is my go-to shop for all things tech! The staff is incredibly knowledgeable and always 
+              "Amass computer Nepal is my go-to shop for all things tech! The staff is incredibly knowledgeable and always 
               provides expert advice when I need it. I recently had them upgrade my computer for work, and the results have 
               been fantastic. The system is now running smoothly, and I can get all my tasks done without any hiccups. 
               Their customer service is second to none, and I trust them with all my tech-related needs."
@@ -208,10 +208,10 @@ const TestomonialPage = () => {
       <div className="text-center">
         <img
           src={Mechanic}
-          alt="Shyam Bahadur (Mechanics)"
+          alt="Buddhi Chaudhary (Mechanics)"
           className="w-24 h-24 mx-auto rounded-full mb-4"
         />
-        <h3 className="text-xl font-semibold text-gray-900">Shyam Bahadur (Mechanic)</h3>
+        <h3 className="text-xl font-semibold text-gray-900">Buddhi Chaudhary (Mechanic)</h3>
         <p className="mt-4 text-base text-gray-600">
           "Hello! I’m a computer technician with experience in fixing issues like hardware failures,
           software errors, and system upgrades. If your computer is running slow, showing errors, or needs repairs,
@@ -245,7 +245,7 @@ const TestomonialPage = () => {
     </p>
     <div className="flex flex-wrap justify-center space-x-0 space-y-4 md:space-x-4 md:space-y-0 mt-6">
       <a
-        href="tel:+9779823315903"
+        href="tel:+9779843927276"
         className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Call for Booking
@@ -253,7 +253,7 @@ const TestomonialPage = () => {
       <button
   className="border border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-700 transition"
   onClick={() => {
-    const phone = "9779823315903"; // Owner's WhatsApp number
+    const phone = "9779843927276"; // Owner's WhatsApp number
     const message = "I have an issue"; // Pre-filled message
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
@@ -283,7 +283,7 @@ const TestomonialPage = () => {
         {/* FAQ 1 */}
         <div>
           <dt className="text-lg leading-6 font-medium text-gray-900">
-            1. Why Should I trust Amass Computer Shop Nepal?
+            1. Why Should I trust Amass computer Nepal?
           </dt>
           <dd className="mt-2 text-base text-gray-500 flex items-center">
             <span className="flex-shrink-0 mr-2">
@@ -291,14 +291,14 @@ const TestomonialPage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </span>
-            Amass Computer shop is known for its years of experience, skilled technicians, and a commitment to quality service. We prioritize customer satisfaction, using genuine parts and offering transparent pricing.
+            Amass computer is known for its years of experience, skilled technicians, and a commitment to quality service. We prioritize customer satisfaction, using genuine parts and offering transparent pricing.
           </dd>
         </div>
 
         {/* FAQ 2 */}
         <div>
           <dt className="text-lg leading-6 font-medium text-gray-900">
-            2. What services does Amass Computer Shop offer?
+            2. What services does Amass computer offer?
           </dt>
           <dd className="mt-2 text-base text-gray-500 flex items-center">
             <span className="flex-shrink-0 mr-2">
@@ -418,7 +418,7 @@ const TestomonialPage = () => {
         {/* FAQ 10 */}
         <div>
           <dt className="text-lg leading-6 font-medium text-gray-900">
-            10. Why should I choose Amass Computer Shop over other repair shops?
+            10. Why should I choose Amass computer over other repair shops?
           </dt>
           <dd className="mt-2 text-base text-gray-500 flex items-center">
             <span className="flex-shrink-0 mr-2">
@@ -426,7 +426,7 @@ const TestomonialPage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </span>
-            Amass Computer Shop stands out with its trusted reputation, experienced technicians, commitment to quality, and exceptional customer service.
+            Amass computer stands out with its trusted reputation, experienced technicians, commitment to quality, and exceptional customer service.
           </dd>
         </div>
       </dl>
